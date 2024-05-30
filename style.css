@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body{
+  background-color:rgb(163,28,43);
+  
+}
+input{
+  width:36px;
+  height:30px;
+  border-radius: 2px;
+  border-width: 1px;
+  margin-bottom:-10px;
+  border-color: #d7cfc7;
+}
+h2{
+  font-family: "Inter", sans-serif;
+  font-weight: 450;
+}
+.container-1{
+  margin: auto;
+  width: 60%;
+  /* height:400px; */
+  height: auto;
+  width:1400px;
+  background-color:white ;
+  border-top: 25px solid;
+  border-bottom: 50px solid;
+  border-color: #3d3935;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+  overflow: auto;
+
+
+}
+.container-2{
+  margin-top:50px;
+  margin-left:25px;
+}
+.container-3{
+  height:auto;
+  width:900px;
+  
+  background-color: #e9eff1;
+  margin-bottom: 20px;
+  padding:20px;
+}
+table{
+  width:100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: left;
+  border:2px solid #cdcccd;
+  margin-bottom:20px;
+}
+tr{
+  border:2px solid #cdcccd;
+  width:100%;
+
+}
+
+th {
+  padding: 5px;
+  border:2px solid #cdcccd;
+}
+
+td{
+  border:2px solid #cdcccd;
+    padding:10px;
+
+}
+
+.table-title{
+  background-color:#dddddd ;
+}
+
+.text-titles{
+  color:rgb(183, 4, 4)
+}
+.calc-button{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.calc-button button{
+  background-color: #b51119;
+  border : none;
+  margin:10px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.calc-button button:nth-child(2) {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* .buttons{
+  background-color: red;
+} */
